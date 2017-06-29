@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Got </title>
+        <style>
+            section{
+                background-color: #c3c3c3;
+                width: 85%;
+                margin: auto;
+                font-family: arial;
+                padding: 15px;
+            }
+            article img{
+             width: 100%;
+             height: 100px;
+             
+            }
+            article{
+                width:24%;
+                margin-right: 1.33%;
+                height:450px;
+                border: 1px solid gray;
+                box-sizing: border-box; 
+                float: left;
+            }
+            article.ultimo{
+                margin-right: 0;
+            }
+            .comenzar{
+                text-align: center;
+                margin: auto;
+                margin-top: 30px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                background-color: green;
+                color: white;
+                width: 100px;
+                cursor: pointer;
+            }
+            article:hover{
+                background: white;
+            }
+            article:hover h3,
+            article:hover p{
+                color: blue;
+            }
+            article:hover img{
+                border-radius: 140px;
+            }
+            .comenzar:hover{
+                background: red;
+                border-radius: 10px;
+            }
+            article p{
+                height: 170px;
+                width: 90%;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+            article h3{
+                text-align: center;
+            }
+            .clearfix{
+                clear: both;
+            }
+            h1{
+                text-align: center;
+            }
+            
+        </style>
+            
+    </head>
+    <body>
+        <section>
+            <h1>Seleccione algunos de los bloque</h1>
+            <article>
+                <h3>Titulo1</h3>   
+                <p>Si los ladrillos no estan bien hechos,
+                   las paredes se caen.
+               </p>
+               <img src="imagen1.jpg" alt=""/>
+               <div class="comenzar"> Comenzar</div>
+            </article>
+            <article>
+                <h3>Titulo2</h3>
+                <p>Lo que estoy construyendo aqui es una pared enorme,
+                   por lo que necesito montones de ladrillos.Por suerte conozco a muchos que los fabrican,
+                   asi como a toda clase de personas utiles.</p>
+                <img src="imagen2.jpg" alt=""/>
+                <div class="comenzar"> Comenzar</div>
+            </article>
+            <article>
+                <h3>Titulo3</h3>
+                <p>Una vez mas, mi agradecimiento
+                   para esos buenos amigos que con tanta gentileza
+                   pusieron a mi disposicion sus conocimientos
+                   para que mis ladrillos fueran solidos
+                   y de buena calidad:</p>
+                <img src="imagen3.jpg" alt=""/>
+                <div class="comenzar"> Comenzar</div>
+            </article>
+            <article class="ultimo">
+                <h3>Titulo4</h3>
+                <p>A mi Archimaestre Sage Walker,
+                   Al Capitan de los Constructores Carl Keim
+                   Y a Melinda Snodgrass, mi caballeriza mayor.
+                   Y como siempre, a Parris.</p>
+                <img src="imagen4.jpg" alt=""/>
+                <div class="comenzar"> Comenzar</div>
+            </article>
+            <div class="clearfix"></div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+.SombreadoN{
+    color: white;
+    background: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.SombreadoB{
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1{
+    float: left;
+    margin: 0;
+    padding-left: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    float: left;
+    width: 35%;
+    text-align: center;
+    margin-left: 200px;
+}
+input{
+    float: right;
+    margin: 20px;
+    background-color: #cccccc;
+    border: 0;
+    width: 250px;
+    height: 20px;
+}
+header{
+    line-height: 70px;
+    margin: 0;
+    background-color: white;
+    border: 5px;
+    border-bottom: black solid;
+}
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 50px;
+    border-bottom: black solid;
+    border-top: black solid;
+}
+.clear{
+    clear: both;
+}
+html,body{
+    margin: 0;
+}
+body{
+    background-color: #cccccc;
+}
+section{
+    width: 33%;
+    float: left;
+    margin-top: 30px;
+}
+.centro{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.unico{
+    width: 76%;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background-color: black;
+    margin-left: 20px;
+    border: 20px;
+    border-bottom: white solid;
+    border-top: white solid;
+}
+@media all and (max-width:500px) {
+    h1{
+        display: inline;
+    }
+    nav,a{
+        float: none;
+    }
+}

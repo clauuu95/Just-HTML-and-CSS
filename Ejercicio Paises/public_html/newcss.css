@@ -1,0 +1,43 @@
+table{
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div,
+.imgn {
+    width: 100px;
+    height: 70px;
+    overflow: hidden;
+    margin: auto;
+}
+thead th {
+    height: 90px;
+    background-color: red;
+}
+tr:hover div{
+    border-radius: 140px; 
+}
+tr:hover{
+    background-color: #666666;
+    color: white;
+}
+tbody{
+    background-color: #999999;
+}
+tr a{
+    color: black;
+}
+tfoot{
+    background-color: #cc0000;
+    color: black;
+}
+a{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
