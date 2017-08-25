@@ -1,0 +1,258 @@
+@font-face{font-family:'Calluna';
+ src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+}
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/scribble_light.png);
+    font-family: Calluna, Arial, sans-serif;
+    min-height: 1000px;
+}
+#columns {
+    column-width: 320px;
+    column-gap: 15px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: transparent;
+}
+div#columns figure {
+    background: #3c3c3c;
+    border: 2px solid white;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 2px 15px;
+    padding: 15px;
+    padding-bottom: 10px;
+    transition: opacity .4s ease-in-out;
+    display: inline-block;
+    column-break-inside: avoid;
+}
+div#columns figure img {
+    width: 100%; height: auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    background: #3c3c3c;
+}
+div#columns figure figcaption {
+    font-size: 15px;
+    font-style: italic;
+    background: #3c3c3c;
+    color: white;
+    line-height: 1.5;
+}
+div#columns small { 
+    font-size: 1rem;
+    float: right; 
+    text-transform: uppercase;
+    color: black;
+} 
+div#columns small a { 
+    color: black; 
+    text-decoration: none; 
+    transition: .4s color;
+}
+div#columns:hover figure:not(:hover) {
+    opacity: 0.4;
+}
+@media screen and (max-width: 750px) { 
+    #columns { column-gap: 0px; }
+    #columns figure { width: 100%; }
+}
+/*Fin CSS Galeria*/
+
+
+body,html{
+    font-family: 'Comfortaa', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.fecha{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #214760;
+    height: 100px;
+}
+.fecha p{
+    color:#ffffff;
+    margin: 10px 0;
+}
+.encabezado{
+    background-image: url(//subtlepatterns.com/patterns/scribble_light.png);
+    height: 250px;
+    background-size: cover;
+}
+nav{
+    padding: 10px 0;
+}
+.color{
+    background: transparent;
+}
+.evento{
+    border: 0;
+    background-color:transparent;
+    text-decoration: none;
+    text-align: center;
+    border-color: white;
+    padding-top: 5px;
+    line-height: none;
+}
+.evento img{
+    width: 80%;
+}
+#objetivos{
+    padding: 50px;
+    color: white;
+    background: #295869;
+}
+.evento:hover{
+    text-decoration: none;
+}
+.clase{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 110px;
+}
+#imagenes{
+    width: 100%;
+    margin: 30px;
+}
+
+blockquote{
+    border-color: #61B1E4;
+    background-color: #CCDBDF;
+    padding: 30px 0px 30px 0px;
+    border-radius: 50px;
+}
+blockquote em{
+    padding: 10px;
+}
+blockquote span img{
+    max-width: 30%;
+}
+blockquote span{
+    color:  #61B1E4;
+}
+#comentarios{
+    background-color: #CCDBDF;
+}
+
+footer{
+    background: #214760;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.espacio{
+    padding: 0px;
+}
+footer span img{
+    width: 50%;
+}
+.arreglo{
+    margin: 50px 0px 0px 0px;
+}
+.background{
+    background: #2e2e2e;
+}
+.fondo{
+    background: url(//subtlepatterns.com/patterns/scribble_light.png);
+}
+.url img{
+    width: 100%;
+}
+.url{
+    display: flex;
+    align-content: center;
+}
+.flexb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color h1{
+    display: flex;
+    justify-content: center;
+    color: #ff9933;
+    text-align: center;
+}
+#inscripcion, .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foto img{
+    width: 50%;
+}
+.space{
+    display: flex;
+    justify-content: center;
+}
+#llegar{
+    background: #295869;
+    color: white;
+    text-align: center;
+}
+#imagen{
+    width: 50%;
+}
+.gris{
+    color: #3C3C3C;
+}
+table, td, th{
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+.fondoAzul{
+    background: #295869;
+    color: #ffffff;
+}
+.fondoAzul .articulos{
+    margin: auto;
+    
+}
+#articulos{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sedes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sedes div{
+    width: 80%;
+    margin: auto;
+}
+.espacios1{
+    width: 90%;
+    margin: auto;
+}
+#contenedor1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+}
+#contenedor2, form{
+    width: 100%;
+    margin: 20px;
+}
+#contacto1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
