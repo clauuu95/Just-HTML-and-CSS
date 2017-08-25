@@ -1,0 +1,114 @@
+body, html{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background: #333333;
+}
+.header{
+    background: black;
+    padding: 20px 00px 0px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid #FFCC33;
+    margin: 0;
+}
+.borde{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.fijacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px 50px 10px 20px;
+}
+
+main{
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border: 0;
+}
+
+.articulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.p1ros{
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+}
+.mostaza{
+    color: #FFCC33;
+}
+.white{
+    color: white;
+}
+.foto{
+    margin: 50px;
+}
+.margen{
+    margin-top: 70px;
+}
+.ancho{
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+    background: #606060;
+    color: white;
+}
+.ancho p{
+    font-size: 14px;
+}
+.ancho h4{
+    color: #FFCC33;
+}
+
+footer{
+    display: flex;
+    background: black;
+    color: #FFCC33;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+footer span{
+    color: white;
+}
+#foot{
+    display: flex;
+}
+#face{
+    display: none;
+    height: 60px;
+}
+.alineaciones{
+    display: flex;
+    align-items: center;
+}
+#follow{
+    display: none;
+}
+.focus{
+    width: 40px;
+    height: 40px;
+}
+#photo{
+    display: none;
+}
